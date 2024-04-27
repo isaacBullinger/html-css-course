@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Box</title>
+    <style>
+        .hourglass {
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50px;
+            display: inline;
+            vertical-align: middle;
+        }
+
+        .text-box {
+            vertical-align: middle;
+            display: inline;
+            font-family: Arial;
+            color: rgb(97, 97, 97);
+            margin-right: 100px;
+            margin-left: 10px;
+        }
+
+        .tweet-button {
+            vertical-align: middle;
+            border: none;
+            color: white;
+            height: 35px;
+            background-color: #4a99e8;
+            border-radius: 25px;
+            font-size: 15px;
+            font-weight: bolder;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .chat-box {
+            width: 450px;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 20px;
+            border: none;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, .25);
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-box">
+    <img class="hourglass" src="images/hourglass.png" alt="hourglass">
+
+        <p class="text-box">
+            What's happening?
+        </p>
+
+        <button class="tweet-button">
+            Tweet
+        </button>
+    </div>
+</body>
+</html>
