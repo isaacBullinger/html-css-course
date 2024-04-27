@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8e</title>
+    <style>
+        .message {
+            font-family: Arial;
+            font-size: 40px;
+        }
+
+        .pickup,
+        .destination,
+        .request,
+        .schedule {
+            border: none;
+            background-color: #f0f0f0;
+            margin-bottom: 10px;
+            padding: 20px 20px;
+            font-size: 20px;
+        }
+
+        .pickup,
+        .destination {
+            display: block;
+            width: 400px;
+        }
+
+        .request {
+            color: white;
+            background-color: black;
+            margin-right: 30px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <p class="message">
+        Request a ride now
+    </p>
+
+    <input class="pickup" placeholder="Enter pickup location" type="text">
+
+    <input class="destination" placeholder="Enter destination" type="text">
+
+    <button class="request">
+        Request now
+    </button>
+
+    <button class="schedule">
+        Schedule for later
+    </button>
+</body>
+</html>
