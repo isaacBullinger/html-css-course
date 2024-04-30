@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14e</title>
+    <style>
+        body {
+            height: 3000px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .header {
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-picture {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-left: 80px;
+        }
+
+        .name {
+            margin-left: 10px;
+        }
+
+        .friend-button {
+            color: white;
+            background-color: #3872db;
+        }
+
+        .message-button {
+            background-color: #e4e5ea;
+            margin-right: 50px;
+        }
+
+        .friend-button,
+        .message-button {
+            border: none;
+            font-weight: bold;
+            padding: 9px 12px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="profile">
+            <img class="profile-picture" src="images/hourglass.png" alt="">
+            <div class="name">
+                hourglassMods
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="friend-button">
+                Add Friend
+            </button>
+            <button class="message-button">
+                Message
+            </button>
+        </div>
+    </div>
+</body>
+</html>

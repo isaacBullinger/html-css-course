@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14f</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 3000px;
+        }
+
+        .sidebar-profile {
+            background-color: #202226;
+            width: 80px;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+        }
+
+        .sidebar-info {
+            background-color: #2f3135;
+            position: fixed;
+            left: 80px;
+            top: 0;
+            bottom: 0;
+            width: 200px;
+        }
+
+        .info-flexbox {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .info {
+            color: white;
+        }
+
+        .plus-icon {
+            color: #7f8185;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .image {
+            height: 60px;
+            width: 60px;
+            border-radius: 36px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .red-image {
+            background-color: red;
+        }
+
+        .yellow-image {
+            background-color: yellow;
+        }
+
+        .green-image {
+            background-color: green;
+        }
+
+        .hashtag {
+            color: #7f7f7f;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar-profile">
+        <div class="red-image image"></div>
+        <div class="yellow-image image"></div>
+        <div class="green-image image"></div>
+    </div>
+    <div class="sidebar-info">
+        <div class="info-flexbox">
+            <div class="info">
+                INFO
+            </div>
+            <div class="plus-icon">
+                +
+            </div>
+        </div>
+        <div class="hashtag">
+            # new-videos
+        </div>
+        <div class="hashtag">
+            # updates
+        </div>
+        <div class="hashtag">
+            # faq
+        </div>
+    </div>
+</body>
+</html>
