@@ -25,6 +25,50 @@
     border-radius: 50px;
 }
 
+.channel-tooltip {
+    width: 200px;
+    padding: 12px 12px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.profile-picture-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-picture-container:hover .channel-tooltip {
+    opacity: 1;
+}
+
+.channel-picture-tooltip {
+    height: 50px;
+    border-radius: 25px;
+}
+
+.channel-tooltip-text {
+    margin-left: 10px;
+    font-family: Roboto, Arial;
+}
+
+.channel-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.subscribers {
+    color: rgb(95, 95, 95);
+    font-size: 14px;
+}
+
 .thumbnail-row {
     margin-bottom: 8px;
     position: relative;
