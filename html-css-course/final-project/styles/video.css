@@ -107,7 +107,19 @@
     .video-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    .video-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .video-author,
+    .video-stats {
+        font-size: 14px;
+    } 
 }
+
+
 
 .video-time {
     font-size: 12ps;

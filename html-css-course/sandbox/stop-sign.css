@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(50, 50, 50);
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background-color: darkred;
+    height: 120px;
+    width: 120px;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+.road {
+    position: absolute;
+    background-color: black;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
+
+.sky {
+    position: absolute;
+    background-color: lightblue;
+    height: 50%;
+    width: 100%;
+    top: 0;
+}
+
+.sun {
+    position: absolute;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    top: 25px;
+    right: 25px;
+}
+
+.button-container {
+    background-color: green;
+    padding: 50px 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-element {
+    background-color: lightblue;
+    position: absolute;
+    height: 50px;
+    width: 30px;
+}
+
+.top-left {
+    background-color: lightblue;
+    rotate: 45deg;
+    top: -18px;
+    left: -8px;
+}
+
+.top-right {
+    rotate: -45deg;
+    top: -18px;
+    right: -8px;
+}
+
+.bottom-left {
+    background-color: green; 
+    rotate: -45deg;
+    bottom: -18px;
+    left: -8px;
+}
+
+.bottom-right {
+    background-color: green; 
+    rotate: 45deg;
+    bottom: -18px;
+    right: -8px;
+}
+
+.post {
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background-color: rgb(175, 175, 175);
+    bottom: 0px;
+    z-index: 2;
+}
